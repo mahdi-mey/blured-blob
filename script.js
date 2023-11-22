@@ -13,4 +13,6 @@ if (!isTouchDevice) {
         blob.style.left = `${clientX}px`;
         blob.style.top = `${clientY}px`;
     });
+}else{
+    alert('This effect only works on desktop devices')
 }
